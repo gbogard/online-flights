@@ -13,13 +13,9 @@ import {
   Button,
 } from 'bloomer';
 import { path, pipe } from 'ramda';
-import { format } from 'date-fns';
-import DatePicker from 'react-datepicker';
 import AirportInput from '../../components/AirportInput';
 import PopularDestinations from '../../components/PopularDestinations';
 import { NavbarWithBorder as Navbar } from '../../components/Navbar';
-
-import 'react-datepicker/dist/react-datepicker.css';
 
 const Home = ({
   predictions,
